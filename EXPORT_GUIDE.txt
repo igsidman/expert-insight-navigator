@@ -1,0 +1,21 @@
+[최종 정리]
+
+이 압축파일은 GitHub 업로드용 프로젝트 구조를 이미 정리해 둔 버전입니다.
+
+다만 현재 대화의 캔버스에 있는 최종 React 코드 전체는 자동으로 파일로 추출할 수 없어서,
+아래 한 단계만 직접 해주시면 됩니다.
+
+1. 오른쪽 캔버스에서 최종 React 코드 전체 복사
+2. src/App.jsx 파일 내용 전체 교체
+3. npm install
+4. npm run dev
+5. 이상 없으면 GitHub에 업로드
+6. Vercel로 연결 배포
+
+[GitHub 업로드 명령어]
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/USERNAME/expert-insight-navigator.git
+git push -u origin main
